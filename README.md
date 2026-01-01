@@ -1,16 +1,23 @@
-# React + Vite
+# Hospitality Explorer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React 18 application for searching and comparing hotels using the Amadeus API and Supabase Authentication.
 
-Currently, two official plugins are available:
+## Features
+- **Authentication**: Secure Login/Signup via Supabase.
+- **Hotel Search**: Real-time data fetching from Amadeus API.
+- **Pagination**: "Load More" functionality for search results.
+- **Comparison**: Select up to 4 hotels to view price/rating charts via Recharts.
+- **Persistence**: Comparison list saved in Local Storage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup Instructions
+1. Clone the repo: `git clone <your-repo-url>`
+2. Install dependencies: `npm install`
+3. Create a `.env` file in the root and add:
+   - VITE_SUPABASE_URL=your_url
+   - VITE_SUPABASE_ANON_KEY=your_key
+   - VITE_AMADEUS_CLIENT_ID=your_id
+   - VITE_AMADEUS_CLIENT_SECRET=your_secret
+4. Start the app: `npm run dev`
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Deployment
+Live URL: [Link to your Vercel deployment]
