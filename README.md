@@ -13,10 +13,10 @@ A React 18 application for searching and comparing hotels using the Amadeus API 
 1. Clone the repo: `git clone <your-repo-url>`
 2. Install dependencies: `npm install`
 3. Create a `.env` file in the root and add:
-   - VITE_SUPABASE_URL=your_url
-   - VITE_SUPABASE_ANON_KEY=your_key
-   - VITE_AMADEUS_CLIENT_ID=your_id
-   - VITE_AMADEUS_CLIENT_SECRET=your_secret
+   - VITE_SUPABASE_URL=https://ymzcboflpadumovxgbwq.supabase.co
+   - VITE_SUPABASE_ANON_KEY=sb_publishable_NDNVjX-Aqa1_BfETGeE-8w_Sut8KJYs
+   - VITE_AMADEUS_CLIENT_ID=3uwAKSkwHrqSSLtLydt4FhSbDrCovGve
+   - VITE_AMADEUS_CLIENT_SECRET=EUhQ6h0LzM3YGoOG
 4. Start the app: `npm run dev`
 
 ## Deployment
